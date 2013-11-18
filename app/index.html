@@ -21,6 +21,7 @@
 
 
         <div class="container">
+            
             <div class="header">
                 <ul class="nav nav-pills pull-right">
                     <li class="active"><a href="#">Home</a></li>
@@ -31,16 +32,26 @@
             </div>
 
             <!-- The onClick Event Handler -->
+            <h3>The onClick Event Handler</h3>
             <input type="button" onclick="alert('You clicked the button!')" value="Click Me" />
 
             <!-- onMouseOver Event Handler -->
               <!-- <img src="images/ironyard.png" alt="The Iron Yard" onmouseover="alert('You entered the image!')"/> -->
             
             <!-- onMouseOver and onMouseOut Event Handlers -->
+            <h3>onMouseOver and onMouseOut Event Handlers</h3>
             <img src="images/linkedin1.png" alt="The Iron Yard" onmouseover="this.src='images/linkedin2.png';" onmouseout="this.src='images/linkedin1.png';"/>
 
+            <h3>Calling Functions</h3>
             <!-- Calling Functions -->
             <input type="button" value="Say Hello" onclick="sayHello()" />
+
+            <!-- buttonReport Function -->
+            <h3>buttonReport Function</h3>
+            <input type="button" id="id1" name="Left Button" value="Left" onclick = "buttonReport(this.id, this.name, this.value)" />
+            <input type="button" id="id2" name="Center Button" value="Center" onclick = "buttonReport(this.id, this.name, this.value)" />
+            <input type="button" id="id3" name="Right Button" value="Right" onclick = "buttonReport(this.id, this.name, this.value)" />
+        
 
         </div>
 
