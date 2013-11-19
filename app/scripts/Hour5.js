@@ -65,5 +65,21 @@
 
 	myArray.length // returns 3
 
+	// Some commonly used methods of the array object
+	// concat		Joins multiple arrays
+		var myOtherArray = ['Thursday', 'Friday'];
+		var myWeek = myArray.concat(myOtherArray);
+	// join  		Joins all array elements together into a string
+		var longDay = myArray.join("-");
+		// returns Monday-Tuesday-Wednesday
+	// toString		Returns array as a string
+		var longDayString = myArray.toString();
+	// indexOf 		Searches the array for specific elements
+	// lastIndexOf	Returns the last intem in the array that matches the search criteria
+	// slice		Returns a new array from the specified index and length
+	// sort 		Sorts the array alphabetically or by the supplied function
+	// splice		Adds or deletes the specified index(es) from/to the array
+
+
 
 
