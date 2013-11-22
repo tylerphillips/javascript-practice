@@ -58,9 +58,13 @@
                 <p>This is 'div1'</p>
             </div>
 
-            <h3>Math</h3>
-            <!-- <input type="button" onclick="alert("You have visited " + history.length + " web pages in this browser session");" value="History" /> -->
-            <!-- <input type="button" id="id1" name="Left Button" value="Random" onclick = "myRand(100)" /> -->
+            <h3>Object Oriented Programming</h3>
+            <!-- Shows dialog box with enter text -->
+            <input type="button" value="Good showInfo Call" onclick="myNewObject.showInfo()" /> 
+            <!-- Shows dialog box with undefined -->
+            <input type="button" value="myFunc Call" onclick="myFunc()" />
+            <!-- Uncaught ReferenceError: showInfo is not defined  -->
+            <input type="button" value="Bad showInfo Call" onclick="showInfo()" />
         </div>
 
 
@@ -88,7 +92,9 @@
         <script src="scripts/hour4-DatesandTimes.js"></script>
         <script src="scripts/hour4-math.js"></script>
         <script src="scripts/hour5.js"></script>
-        <script src="scripts/hour6.js"></script>
+        
+        <script src="scripts/hour6-LoopsandControlStructures.js"></script>
+        <script src="scripts/hour7.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
